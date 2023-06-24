@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dependency Inversion Principle in C#.cs" />
+    <Compile Include="Liskov Substitution Principle in C sharp.cs" />
+    <Compile Include="Interface Segregation Principle in Csharp.cs" />
     <Compile Include="Open-Closed Principle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Compile Include="SOLID_PRINCIPLES.SRP.cs" />
+    <Compile Include="Single Responsibility Principal in C sharp.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
